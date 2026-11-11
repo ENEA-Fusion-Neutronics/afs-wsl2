@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 ENEA
+# SPDX-FileContributor: Alberto P
+# SPDX-License-Identifier: MPL-2.0
+
+# build outputs, reproducible with the scripts
+/openafs-debs/
+*.vhdx
+/kernel-*
+*.img
+*.ko
+*.deb
+
+# Microsoft clones used as read-only references (nested repos, ~5 GB)
+/WSL/
+/WSL2-Linux-Kernel/
+
+# scratch
+*.log
+*.swp
+*~
